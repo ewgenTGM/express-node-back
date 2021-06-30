@@ -1,0 +1,5 @@
+{
+  "PORT": "3001",
+  "DB_URL": "mongodb+srv://dbAdmin:ghDArVnin57B4r5I@cluster0.eaipi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "SECRET_KEY": "TOPMOSTTOP"
+}
