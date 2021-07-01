@@ -65,13 +65,14 @@ class AuthController {
 	async me(req, res) {
 		const response = new ResponseModel();
 		try {
-			if (req.currentUser) {
-				response.data = {
-					id: req.currentUser.id,
-					email: req.currentUser.email,
-				};
+			if (!req.currentUser) {
+				return res.status(400).json('You are not authorized {auth/me}');
 			}
-			res.status(400).json(response);
+			response.data = {
+				id: req.currentUser.id,
+				email: req.currentUser.email,
+			};
+			res.json(response);
 		} catch (e) {
 			response.errors.push(e.message);
 			res.status(400).json(response);

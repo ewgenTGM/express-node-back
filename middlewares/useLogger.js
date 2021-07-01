@@ -8,6 +8,7 @@ export default function useLogger(req, res, next) {
 			query: req.query,
 			body: req.body,
 			cookies: req.cookies,
+			headers: req.headers,
 		};
 		logger.info(JSON.stringify(logEntry, null, 2));
 	} catch (error) {}

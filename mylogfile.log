@@ -88,3 +88,300 @@
 2021-07-01 09:06:50 INFO  Application started on port 3001 
 2021-07-01 09:07:57 INFO  MongoDB is connected 
 2021-07-01 09:07:57 INFO  Application started on port 3001 
+2021-07-01 20:45:30 INFO  MongoDB is connected 
+2021-07-01 20:45:30 INFO  Application started on port 3001 
+2021-07-01 20:47:55 INFO  MongoDB is connected 
+2021-07-01 20:47:55 INFO  Application started on port 3001 
+2021-07-01 20:48:41 INFO  MongoDB is connected 
+2021-07-01 20:48:49 INFO  MongoDB is connected 
+2021-07-01 20:48:49 INFO  Application started on port 3001 
+2021-07-01 20:48:52 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:50:27 INFO  MongoDB is connected 
+2021-07-01 20:50:27 INFO  Application started on port 3001 
+2021-07-01 20:50:30 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:51:00 INFO  {
+  "method": "GET",
+  "url": "/login",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:51:29 INFO  {
+  "method": "POST",
+  "url": "/login",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:51:45 INFO  {
+  "method": "POST",
+  "url": "/register",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:51:50 INFO  {
+  "method": "POST",
+  "url": "/login",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:51:53 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:51:55 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {
+    "email": "ewgenTGM@mail.com",
+    "password": "ewgenTGM@mail.com"
+  },
+  "cookies": {}
+} 
+2021-07-01 20:52:28 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {}
+} 
+2021-07-01 20:52:40 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {}
+} 
+2021-07-01 20:53:20 INFO  MongoDB is connected 
+2021-07-01 20:53:20 INFO  Application started on port 3001 
+2021-07-01 20:53:22 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "f3fc22b0-1ac8-4523-9b39-6ef8055e3e9e",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 20:54:38 INFO  MongoDB is connected 
+2021-07-01 20:54:38 INFO  Application started on port 3001 
+2021-07-01 20:54:42 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "eb595f61-5b70-434b-b797-3a3c44ffaf4c",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 20:56:35 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "ea2ed372-017b-4b21-929f-cba79c086b98",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 20:57:14 INFO  MongoDB is connected 
+2021-07-01 20:57:14 INFO  Application started on port 3001 
+2021-07-01 20:57:20 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "7a47d997-8627-4f86-a5ec-8d45a0543976",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 20:58:06 INFO  MongoDB is connected 
+2021-07-01 20:58:06 INFO  Application started on port 3001 
+2021-07-01 20:58:10 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "efb9998c-5f79-494b-8c9a-224565bad930",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 20:58:18 INFO  MongoDB is connected 
+2021-07-01 20:58:18 INFO  Application started on port 3001 
+2021-07-01 21:00:46 INFO  MongoDB is connected 
+2021-07-01 21:00:46 INFO  Application started on port 3001 
+2021-07-01 21:01:23 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "fcf41bbc-2314-4ece-b129-30ad08bda8e0",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 21:04:20 INFO  MongoDB is connected 
+2021-07-01 21:04:20 INFO  Application started on port 3001 
+2021-07-01 21:04:21 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "c99b2201-2748-4f06-ba08-be3856365a47",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 21:04:28 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "3c182b09-2bc2-4935-891f-01820eae75fa",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 21:04:44 INFO  MongoDB is connected 
+2021-07-01 21:04:44 INFO  Application started on port 3001 
+2021-07-01 21:04:53 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "ff3ad796-1ebb-4fe0-ade8-995dc0640b25",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 21:05:40 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "65f69d98-afd2-4f02-b80e-605ab53026a3",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
+2021-07-01 21:06:13 INFO  MongoDB is connected 
+2021-07-01 21:06:13 INFO  Application started on port 3001 
+2021-07-01 21:06:27 INFO  {
+  "method": "GET",
+  "url": "/me",
+  "query": {},
+  "body": {},
+  "cookies": {},
+  "headers": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGUwMGIxODg0NTRjMDU0ODBmMDU4NyIsImVtYWlsIjoiZXdnZW5UR01AbWFpbC5jb20iLCJpYXQiOjE2MjUxNjE5MTAsImV4cCI6MTYyNTE2MzcxMH0.ik2_DuHpAyxYbEUPivgcekwTJVvl02hWzU0jxKRr3sY",
+    "user-agent": "PostmanRuntime/7.28.1",
+    "accept": "*/*",
+    "postman-token": "99a7a95f-23c9-4e2f-b3a6-085c136b36a0",
+    "host": "localhost:3001",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  }
+} 
