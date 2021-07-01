@@ -2,21 +2,7 @@ import { ResponseModel } from '../models/ResponseModel.js';
 import { validationResult } from 'express-validator';
 import { User } from '../models/User.js';
 import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
-import config from 'config';
-
-function generateAccessToken(id, email) {
-	const payload = { id, email };
-	return jwt.sign(payload, config.get('SECRET_KEY'), { expiresIn: '30s' });
-}
-
-export function decodeToken(token) {
-	const decoded = jwt.decode(token);
-	if (decoded) {
-		return decoded;
-	}
-	return null;
-}
+import tokenService from '../services/tokenService.js';
 
 class AuthController {
 	async register(req, res) {
@@ -63,7 +49,10 @@ class AuthController {
 				response.errors.push(`Неверный пользователь и (или) пароль`);
 				return res.status(400).json(response);
 			}
-			const token = generateAccessToken(user._id, user.email);
+			const token = tokenService.generateAccessToken({
+				id: user._id,
+				email: user.email,
+			});
 			response.data = { token };
 			response.messages.push('Login success');
 			res.json(response);
@@ -77,7 +66,10 @@ class AuthController {
 		const response = new ResponseModel();
 		try {
 			if (req.currentUser) {
-				response.data = req.currentUser.email;
+				response.data = {
+					id: req.currentUser.id,
+					email: req.currentUser.email,
+				};
 			}
 			res.status(400).json(response);
 		} catch (e) {
@@ -88,7 +80,6 @@ class AuthController {
 
 	async logout(req, res) {
 		const response = new ResponseModel();
-		res.clearCookie('access_token');
 		response.messages.push('Logout success');
 		res.json(response);
 		try {
